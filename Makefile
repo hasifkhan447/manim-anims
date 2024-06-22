@@ -1,6 +1,6 @@
 FILE=
 SCENE=
-FLAGS=--disable_caching
+FLAGS=
 QUALITY=-qm
 run:
 	manim $(FILE) $(SCENE) -p $(QUALITY) $(FLAGS)
